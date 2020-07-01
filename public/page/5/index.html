@@ -189,6 +189,95 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-minipi" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/04/08/minipi/">如何自制一块“树莓派”--DIY ARM-Linux卡片电脑</a>
+    </h1>
+  
+
+        
+        <a href="/2018/04/08/minipi/" class="archive-article-date">
+  	<time datetime="2018-04-08T13:32:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-08</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="/img/MiniPi0.jpg" alt="加载失败,请刷新"></p>
+<blockquote>
+<p>最近准备拿树莓派做一些AI相关好玩的东西，但是对这块别人设计的板子总感觉不是很满意。一方面树莓派是面向广大用户的，所以定制化不够，板子形状尺寸配置外设都无法达到理想的要求；另一方面树莓派的性能也确实相对捉急，毕竟成本摆在那里，为了普及这块卡片电脑，不可能用上太贵的SOC（树莓派上面的博通CPU是专门供应给树莓派的）。于是为了满足个人的强迫症，也为了学习一下高速PCB的设计制造，决定自己画块ARM核心板玩~</p>
+<p>板子的原理图设计和PCB Layout已经完成了，正在发往厂家进行PCB加工。这里吐槽一下，像这种多层精密PCB板要找到合适的厂家打个样（不是批量）还真是不容易。。。淘宝上翻了一遍PCB打样的厂家，没有一家能做0.3mm pitch的BGA板；听说嘉立创最近工艺升级，于是去充了个值把板子发过去试试看，第一次审核通过，第二次准备加工的时候，接到电话说你的板子我们做不了，0.2mm的过孔超过工艺范围，是的加钱也做不了…不过幸运的是最终还是找到一个可以做的厂家，当然价格也是相当的不亲民了~</p>
+</blockquote>
+<p><img src="/img/MiniPi12.jpg" alt="加载失败,请刷新"></p>
+<blockquote>
+<p> 板子用的全志Cortex A53四核CPU，主频1.5GHz，六层DDR3内存，mini-PCIE尺寸，性能应该是完全超过树莓派了~等板子加工好了下一步移植uboot和Linux-kernel，应该是目前为止最小的Linux开发板了。板子引出了spi，iic，uart等引脚资源，后面会做一个arduino兼容的底板。</p>
+</blockquote>
+<p><img src="/img/MiniPi1.jpg" alt="加载失败,请刷新"></p>
+        
+          <a class="article-more-a" href="/2018/04/08/minipi/#more">继续阅读 >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">项目</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">ARM</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/04/08/minipi/">全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-gp22" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -535,113 +624,9 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-poop" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/11/23/poop/">实现iPhone X的AniMoji功能</a>
-    </h1>
-  
-
-        
-        <a href="/2017/11/23/poop/" class="archive-article-date">
-  	<time datetime="2017-11-23T15:12:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-11-23</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="/img/poop1.jpg" alt="加载失败,请刷新"></p>
-<blockquote>
-<p>苹果总是能隔三差五地带给人们惊喜，今年的iPhone X作为iPhone的十周年纪念版，加入了众多黑科技功能，而作为其中之一，即使对 iPhone X 再无感的人，应该都无法拒绝 <em>Animoji</em>这个魔性的功能。</p>
-</blockquote>
-<p><img src="/img/poop2.png" alt="加载失败,请刷新"></p>
-<blockquote>
-<p><em>AniMoji</em>作为iPhone X的独占功能，目前只能在X这一款机型上体验（甚至连iPhone8都不行），而且目前也只在iMessage里有应用。个人曾经在iPhone X发布很久之前，做过一个类似的APP叫<a href="http://www.pengzhihui.xyz/2017/02/22/faceapp/" target="_blank" rel="external">颜艺Boy</a>，也是用来同步用户的表情的。但是当然啦，如果苹果决定要做某一件事情，一定会把它做到极致体验再发布的，所以跟我当时那个APP比起来，AniMoji的效果要好非常多。一方面是由于X搭载了神经网络处理器，所以可以使用复杂得多的网络模型，另一方面苹果的3D动画建模是老牌强项（毕竟乔布斯拥有的另一家公司名字叫做皮克斯:D），仔细看就会发现它并不是使用一个标准的骨架套在每个模型上面，而且针对每个独特的猫啊狗子啊外星人啊进行专门的动画表情建模（比如机器人的嘴，动物的耳朵等，都是可以以特定的方式动的），所以表现出来的动画人物的表情才会非常生动可爱。</p>
-</blockquote>
-<p><img src="/img/poop3.jpg" alt="加载失败,请刷新"></p>
-<blockquote>
-<p>对个人而言，作为对当时颜艺Boy的改进，我重新实现了一套算法，这次主要基于CLM模型。算法步骤还是差不多，首先提取出人脸的一系列关键点，然后进行头部姿态评估，将旋转矩阵映射到3D模型，同时表情的同步也是基于人眼、嘴巴、眉毛等关键点的位置变化。相比于之前的算法，这次的改进最明显的是提取点的稳定性比之前要好很多，也就是说点不会再不停地抖动，这样就给后面的旋转矩阵计算带来 了很大的好处，体现出来的效果就是表情可以做的更加生动了（因为稳定性好就可以把人脸的表情放大而不用担心噪声抖动也被放大，所以夸张的表情会更有卡通效果）。另一个改进就是提高了算法的执行效率，实时性会更好一些。</p>
-</blockquote>
-<pre><code>看一下效果：
-</code></pre><div style="height: 0;padding-bottom: 61%;position: relative;"><br><iframe width="560" height="315" src="http://player.youku.com/embed/XMzE3OTg1NDk1Ng" frameborder="0" allowfullscreen style="position: absolute;height: 100%;width: 100%;"></iframe><br></div>  
-
-<p><br> </p>
-<blockquote>
-<p>算法基本搞定了，现在正在往Android上移植，网络模型还有点大需要裁剪，单目摄像头的效果跟iPhone X的3D结构光sensor肯定还是有点差距的。后面有机会也研究一下这个来自Kinect团队的黑科技结构光传感器↓</p>
-</blockquote>
-<p><img src="/img/poop4.jpg" alt="加载失败,请刷新"></p>
-<blockquote>
-<p><strong>另，有没得擅长3D角色建模的小伙伴，诚邀帮我出几个图[勾引]，自己胡撸了两天blender感觉建出来的模型跟屎一样:C</strong></p>
-</blockquote>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">项目</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Android</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">机器学习</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/11/23/poop/">全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/page/4/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/page/12/">12</a><a class="extend next" rel="next" href="/page/6/">Next &raquo;</a>
+      <a class="extend prev" rel="prev" href="/page/4/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><a class="extend next" rel="next" href="/page/6/">Next &raquo;</a>
     </nav>
   
 
@@ -761,11 +746,7 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">ARM</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Altium Designer</a>
+                <a href="javascript:void(0)" class="js-tag color1">谜之DIY</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -777,7 +758,15 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">谜之DIY</a>
+                <a href="javascript:void(0)" class="js-tag color4">ARM</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Altium Designer</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">C#</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -789,7 +778,7 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">C#</a>
+                <a href="javascript:void(0)" class="js-tag color5">FPGA</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -801,10 +790,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">FPGA</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">PHP</a>
               </li>
              
@@ -813,15 +798,15 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">教程</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">LUA</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">生活</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">教程</a>
               </li>
              
               <li class="article-tag-list-item">
